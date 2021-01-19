@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="illustration">
+            <div class="illustration__content illustration__content-img--bg">
+                <img src="images/bg-pattern-mobile.svg" alt=""  class="illustration__image illustration__image--bg-mobile">
+            </div>
+            <picture class="illustration__content illustration__content-img--woman">
+                <source media="(max-width: 700px)" srcset="images/illustration-woman-online-mobile.svg" type="image/svg+xml">
+                <img src="images/illustration-woman-online-desktop.svg" alt="" class="illustration__image illustration__image--woman-img">
+            </picture>
+            <picture class="illustration__content illustration__content-img--box">
+                <img  src="images/illustration-box-desktop.svg" alt="" class="illustration__image illustration__image--box-img">
+            </picture>
+        </div>
+        <div class="faq">
+            <h2 class="faq__heading">faq</h2>
+            <ul class="faq__list">
+                <li class="faq__item-list">
+                    <input type="checkbox"   id="question-1" class="faq__checkbox">
+                    
+                    <label for="question-1" class="faq__question"><span>How many team members can I invite?</span><img src="images/icon-arrow-down.svg" alt="" class="faq__arrow-icon"></label>
+                        
+                    <div class="faq__answer">
+                        You can invite up to 2 additional users on the Free plan. There is no limit on
+                        team members for the Premium plan.
+                    </div>
+                </li>
+                <li class="faq__item-list">
+                    <input type="checkbox"   id="question-2" class="faq__checkbox">
+                    
+                    <label for="question-2" class="faq__question"><span>What is the maximum file upload size?</span> <img src="images/icon-arrow-down.svg" alt="" class="faq__arrow-icon"></label>
+                        
+                
+                    <div class="faq__answer">
+                        No more than 2GB. All files in your account must fit your allotted storage space.
+                    </div>
+                </li>
+                <li class="faq__item-list">
+                    <input type="checkbox"   id="question-3" class="faq__checkbox">
+                    
+                    <label for="question-3" class="faq__question"><span>How do I reset my password?</span> <img src="images/icon-arrow-down.svg" alt="" class="faq__arrow-icon"></label>
+           
+                    <div class="faq__answer">
+                        Click “Forgot password” from the login page or “Change password” from your profile page.
+                        A reset link will be emailed to you.
+                    </div>
+                </li>
+                <li class="faq__item-list">
+                    <input type="checkbox"   id="question-4" class="faq__checkbox">
+                    
+                    <label for="question-4" class="faq__question"><span>Can I cancel my subscription?</span><img src="images/icon-arrow-down.svg" alt="" class="faq__arrow-icon"></label>
+                        
+   
+                    <div class="faq__answer">
+                        Yes! Send us a message and we’ll process your request no questions asked.
+                    </div>
+                </li>
+                <li class="faq__item-list">
+                    <input type="checkbox"   id="question-5" class="faq__checkbox">
+                    
+                    <label for="question-5" class="faq__question"><span>Do you provide additional support?</span> <img src="images/icon-arrow-down.svg" alt="" class="faq__arrow-icon"></label>
+
+                    <div class="faq__answer">
+                        Chat and email support is available 24/7. Phone lines are open during normal business hours
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

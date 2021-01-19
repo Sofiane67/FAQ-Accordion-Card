@@ -1,0 +1,26 @@
+$breakpoints: (
+    bp-medium: 62.5em, //1000/16
+    bp-small: 43.75em, //700/16
+    mobile-only: 25em // 400/16
+);
+
+
+
+@mixin bp-medium{
+    @media screen and (max-width: map-get($breakpoints ,bp-medium)){
+        @content;
+    }   
+}
+
+@mixin bp-small{
+    @media screen and (max-width: map-get($breakpoints ,bp-small)){
+        @content;
+    }   
+}
+
+@mixin mobile-only{
+    @media screen and (max-width: map-get($breakpoints , mobile-only)){
+        @content;
+    }   
+}
+
