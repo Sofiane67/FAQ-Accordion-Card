@@ -12,4 +12,4 @@ the users should be able to:
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
 
-Project url : https://frontend-mentor-faq-accordion-card-three.vercel.app/
+Project url : https://frontend-mentor-faq-accordion-card-mu.vercel.app/
